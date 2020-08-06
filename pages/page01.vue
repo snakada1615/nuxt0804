@@ -1,9 +1,15 @@
 <template>
-  <h4>this is page01</h4>
+  <div class="syncDB">
+    <h4>this is page01</h4>
+    <syncStatic />
+  </div>
 </template>
 
 <script>
-export default {}
+import syncStatic from '../components/syncStatic'
+export default {
+  components: { syncStatic },
+}
 </script>
 
 <style scoped></style>
