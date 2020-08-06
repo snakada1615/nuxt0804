@@ -1,9 +1,15 @@
 <template>
-  <h4>this is page01</h4>
+  <div class="page01">
+    <h4>this is page01</h4>
+    <PoucnImportNfa />
+  </div>
 </template>
 
 <script>
-export default {}
+import PoucnImportNfa from '../components/syncNFAstatic'
+export default {
+  components: { PoucnImportNfa },
+}
 </script>
 
 <style scoped></style>
