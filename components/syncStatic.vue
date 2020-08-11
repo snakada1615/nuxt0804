@@ -8,7 +8,17 @@ import PouchDB from 'pouchdb'
 export default {
   name: 'ImportStatic',
 }
-const dbs = ['fct', 'dri', 'pop', 'crop_national', 'crop_name']
+const dbs = [
+  'fct',
+  'dri',
+  'pop',
+  'crop_national',
+  'crop_name',
+  'countries',
+  'population',
+  'location',
+  'mystatus',
+]
 
 // Replicating a local database to Remote
 dbs.map(function (value, index, array) {
